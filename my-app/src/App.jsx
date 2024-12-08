@@ -7,7 +7,7 @@ function App() {
 
   return (
       <div className='App'>
-        <Canvas>
+        <Canvas className='canvas'>
           <color attach="background" args={['#213547']} />
           <Experience />
         </Canvas>
