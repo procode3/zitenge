@@ -1,7 +1,5 @@
 import { Suspense } from 'react';
 import {MeshReflectorMaterial, PresentationControls, Stage} from '@react-three/drei';
-import { useLoader } from '@react-three/fiber'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import Rack from './Rack'
 
 const Experience = () => {
